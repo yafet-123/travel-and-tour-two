@@ -8,7 +8,7 @@ export const TourDetailHero: React.FC<any> = ({ tour, cssProperty }) => {
       <div
         className={`flex flex-col justify-center gap-2 md:gap-16 items-center h-full md:h-screen bg-cover ${cssProperty} py-24 px-4`}
       >
-        <h1 className="text-white text-center text-3xl font-bold md:text-6xl">
+        <h1 className="text-white text-center text-3xl font-bold md:text-6xl mb-5">
           {tour.title}
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-around md:gap-12 gap-2 text-white text-center font-bold text-2xl ">
