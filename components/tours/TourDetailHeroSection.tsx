@@ -6,7 +6,7 @@ export const TourDetailHero: React.FC<any> = ({ tour, cssProperty }) => {
   return (
     <React.Fragment>
       <div
-        className={`flex flex-col justify-center gap-2 md:gap-16 items-center h-screen bg-cover ${cssProperty}`}
+        className={`flex flex-col justify-center gap-2 md:gap-16 items-center h-full md:h-screen bg-cover ${cssProperty} py-24 px-2`}
       >
         <h1 className="text-white text-center text-3xl font-bold md:text-6xl">
           {tour.title}

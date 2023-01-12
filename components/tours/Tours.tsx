@@ -20,19 +20,19 @@ export const Tours: React.FC<any> = ({ all_tours }) => {
         return (
           <div
             key={index}
-            className="grid p-8 md:grid-cols-2 grid-cols-1 odd:bg-white even:bg-primaryColor odd:text-primaryColor even:text-white "
+            className="grid p-3 md:p-8 md:grid-cols-2 grid-cols-1 odd:bg-white even:bg-primaryColor odd:text-primaryColor even:text-white "
           >
             <div>
               <Image
                 src={tour.imagePath}
                 alt={tour.title}
                 priority
-                className="md:w-[500px] md:h-[400px]"
+                className="w-full md:w-[500px] h-[300px] md:h-[400px] border-transparent rounded-xl"
               />
             </div>
-            <div className="flex flex-col justify-around p-4">
-              <h1 className="font-bold text-xl md:text-3xl">{tour.title}</h1>
-              <p className="font-normal text-md md:text-xl">
+            <div className="flex flex-col justify-around p-2 md:p-4">
+              <h1 className="font-bold text-xl md:text-3xl py-3 md:py-0">{tour.title}</h1>
+              <p className="font-normal text-md md:text-xl py-3 md:py-0">
                 {tour.shortDescription}
               </p>
               <div className="w-40">
