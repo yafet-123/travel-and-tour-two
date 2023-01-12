@@ -11,11 +11,7 @@ export const CommonHeroSection: React.FC<HeroContentOne> = ({
 }) => {
   return (
     <div
-      className={`flex justify-center items-center bg-fixed ${
-        title === 'Read Our Travel Tips' || title === 'About Ethiopia'
-          ? 'h-[600px]'
-          : 'h-screen'
-      }  bg-cover top-10 ${cssStyle}`}
+      className={`flex justify-center items-center bg-fixed h-[600px] bg-cover top-10 ${cssStyle}`}
     >
       <div className="flex flex-col gap-8 font-bold text-center md:p-12">
         <div>

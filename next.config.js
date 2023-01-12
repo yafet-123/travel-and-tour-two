@@ -10,6 +10,9 @@ const nextConfig = {
       'accounting.binus.ac.id',
       'rmi.org',
       'media.istockphoto.com',
+      'lp-cms-production.imgix.net',
+      'jonesbrotherscoffee.com',
+      'cdn.cnn.com',
     ],
   },
   typescript: {
