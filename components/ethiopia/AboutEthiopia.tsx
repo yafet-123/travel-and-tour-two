@@ -58,24 +58,28 @@ export const AboutEthiopia: React.FC = () => {
         return (
           <div
             key={index}
-            className="grid p-12 md:grid-cols-2 grid-cols-1 text-white md:justify-center"
+            className="grid p-3 md:p-12 md:grid-cols-2 grid-cols-1 text-white md:justify-center"
           >
             <div
               className={`${
                 ethiopia.id % 2 === 0
                   ? 'md:order-last order-first md:justify-self-center'
                   : 'md:order-first order-last'
-              } bg-white`}
+              } bg-white w-full`}
             >
               <Image
                 src={ethiopia.imagePath}
                 alt={ethiopia.title}
                 priority
-                className="md:w-[500px] md:h-[450px]"
+                className={`${
+                ethiopia.id % 2 === 0
+                  ? 'md:pl-5'
+                  : 'md:pr-5'
+                } w-full h-[300px] md:h-[450px] bg-cover my-5 md:my-0 `}
               />
             </div>
 
-            <div className="flex flex-col p-6 gap-4 bg-primaryColor">
+            <div className="flex flex-col p-6 gap-4 bg-primaryColor ">
               <h1 className="font-bold text-xl md:text-3xl">
                 {ethiopia.title}
               </h1>
