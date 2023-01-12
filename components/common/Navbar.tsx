@@ -11,15 +11,22 @@ export const Navbar: React.FC = () => {
     { path: '/', name: 'HOME' },
     { path: '/tours', name: 'TOURS' },
     { path: '/ethiopia', name: 'ETHIOPIA' },
-    { path: '/', name: 'ABOUT' },
+    { path: '/about', name: 'ABOUT' },
     { path: '/destinations', name: 'DESTINATIONS' },
     { path: '/sustainablity', name: 'SUSTAINABLITY' },
     { path: '/travel_tips', name: 'TRAVEL TIPS' },
     { path: '/contactus', name: 'CONTACT US' },
   ];
 
+  // const [navColor , setNavcolor] = useState('bg-transparent')
+
+  const handleNavColor = () => {};
+
   return (
-    <nav className="w-full bg-[#165248] lg:h-[100px] fixed z-50">
+    <nav
+      onScroll={handleNavColor}
+      className="w-full bg-primaryColor bg-opacity-80 lg:h-[100px] top-0 fixed z-50"
+    >
       <div className="lg:justify-between justify-around lg:px-4 mx-10 items-center lg:flex lg:py-[10px] ">
         <div className="flex items-center justify-between py-3 ">
           <Link href="/" className="">
