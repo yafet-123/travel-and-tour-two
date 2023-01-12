@@ -12,11 +12,11 @@ export const Featured: React.FC<any> = ({ featuredTours }) => {
         FEATURED TOURS
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto lg:grid-cols-4 gap-10 md:gap-4 text-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:grid-cols-4 gap-10 md:gap-4 text-center ">
         {featuredTours?.map((data: any, index: any) => (
           <div
             key={index}
-            className="rounded-2xl hero-background md:w-full h-64 md:h-80 flex flex-col items-center
+            className="rounded-2xl hero-background md:w-full h-full md:h-80 flex flex-col items-center
             justify-between py-5 text-center p-2 hover:scale-105 transition duration-300 "
           >
             <h3 className="w-full text-lg md:text-xl font-sans  font-bold text-white">

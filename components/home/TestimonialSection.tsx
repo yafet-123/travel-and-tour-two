@@ -48,8 +48,8 @@ export const TestimonialSection: React.FC = () => {
             return (
               <div
                 key={index}
-                className="flex flex-col justify-around items-center w-full  sm:my-16 my-8 h-auto p-6 gap-4 bg-white
-               text-black hover:bg-primaryColor hover:text-white transition duration-300 border-primaryColor border-4"
+                className="flex flex-col justify-around items-center w-full sm:my-16 my-8 h-auto p-6 gap-4 bg-primaryColor
+               text-white hover:bg-white hover:text-black transition duration-300 border-primaryColor border-4"
               >
                 <Image
                   src={person.personImage}

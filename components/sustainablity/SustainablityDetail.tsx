@@ -16,12 +16,12 @@ export const SustainablityDetail: React.FC = () => {
         />
       </div>
 
-      <div className="flex flex-col gap-8 ">
+      <div className="flex flex-col gap-8">
         {SustainablityArray?.map((place: any, index: any) => {
           return (
             <div
               key={index}
-              className="grid grid-cols-1 gap-4 border-b-4 border-primaryColor justify-center bg-white text-primaryColor md:mx-12 mx-4"
+              className="grid grid-cols-1 gap-4 border-b-4 border-primaryColor justify-center bg-white text-primaryColor md:mx-54 mx-4 mb-3"
             >
               <div
               //   className={`${

@@ -5,11 +5,11 @@ import whychooseusimage from '../../public/Attractions-naturall-endemic-mammals-
 
 export const WhyChooseUs: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 my-24">
+    <div className="grid grid-cols-1 md:grid-cols-2 my-24 bg-primaryColor py-5">
       <div className="flex justify-center items-center">
-        <div className="pr-2 hidden md:flex">
+        <div className="mx-2">
           <Image
-            className=""
+            className="border-primaryColor rounded-xl"
             alt="why choose us image"
             src={whychooseusimage}
             width={500}
@@ -18,7 +18,7 @@ export const WhyChooseUs: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex text-primaryColor flex-col px-6 md:px-12 w-full h-full justify-start md:mx-auto gap-4">
+      <div className="flex text-white flex-col px-6 md:px-12 w-full h-full justify-start md:mx-auto gap-4">
         <h2 className=" font-bold text-3xl  md:text-4xl lg:text-5xl my-4">
           WHY CHOOSE US
         </h2>

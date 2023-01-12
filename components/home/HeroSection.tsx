@@ -18,11 +18,11 @@ export const HeroSection: React.FC = () => {
             Friendly Tours.
           </h1>
         </div>
-        <div className="w-72">
+        <div className="w-72 px-5">
           <Link href="/tours">
             <h1
-              className="border-4 font-bold cursor-pointer text-white text-3xl py-3 hover:border-white hover:text-primaryColor hover:bg-white
-              shadow-sm shadow-white border-white rounded-sm w-72 bg-primaryColor hover:scale-110 transition duration-300  items-center justify-center"
+              className=" border-4 font-bold cursor-pointer text-white text-3xl py-3 hover:border-white hover:text-primaryColor hover:bg-white
+              shadow-sm shadow-white border-white rounded-sm w-full md:w-72 bg-primaryColor hover:scale-110 transition duration-300  items-center justify-center"
             >
               See Tours
             </h1>

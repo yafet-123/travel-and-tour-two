@@ -33,7 +33,7 @@ export const HeroSectionCards: React.FC = () => {
           <div
             key={index}
             className={`${card.id} bg-cover bg-blend-darken	justify-around rounded-sm md:hover:scale-110 md:transition md:duration-500 
-                         flex flex-col place-items-center text-center border-secondaryColor border-8  h-96 md:h-[450px] lg:h-[500px] py-3`}
+                         flex flex-col place-items-center text-center border-secondaryColor border-8  h-96 md:h-[450px] lg:h-[500px] py-3 bg-brightness-0`}
           >
             <div>
               <h3 className="text-3xl font-bold font-monospace ">
@@ -42,9 +42,9 @@ export const HeroSectionCards: React.FC = () => {
             </div>
 
             <div className="flex flex-col w-3/4 items-center gap-4 ">
-              <p className="text-md  text-white">{card.description}</p>
+              <p className="text-md lg:text-xl text-white">{card.description}</p>
               <Link href="/">
-                <h5 className="border text-white font-semibold font-monospace hover:font-bold mt-2 p-1 ">
+                <h5 className="border text-white font-semibold font-monospace hover:font-bold mt-2 px-3 py-2 hover:scale-110">
                   Read More
                 </h5>
               </Link>

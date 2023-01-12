@@ -45,12 +45,12 @@ export const OurServices: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col flex-grow justify-between mx-6 text-center my-10">
-      <h1 className="text-3xl md:text-5xl text-primaryColor font-bold mt-4">
+    <div className="flex flex-col flex-grow justify-between text-center my-10">
+      <h1 className="text-3xl md:text-5xl text-primaryColor font-bold mt-4 mx-6">
         OUR SERVICES
       </h1>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-8 mt-4 p-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 gap-8 mt-4 p-4 mx-2">
         {ServicesArray.map((service, index) => {
           return (
             <div
