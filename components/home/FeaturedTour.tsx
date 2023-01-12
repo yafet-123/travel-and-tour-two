@@ -12,7 +12,7 @@ export const Featured: React.FC<any> = ({ featuredTours }) => {
         FEATURED TOURS
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-10 lg:grid-cols-4 gap-10 md:gap-4 text-center ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-5 md:mx-10 lg:grid-cols-4 gap-10 md:gap-4 text-center ">
         {featuredTours?.map((data: any, index: any) => (
           <div
             key={index}

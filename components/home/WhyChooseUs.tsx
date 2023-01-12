@@ -5,7 +5,7 @@ import whychooseusimage from '../../public/Attractions-naturall-endemic-mammals-
 
 export const WhyChooseUs: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 my-24 bg-primaryColor py-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 my-24 bg-primaryColor py-10">
       <div className="flex justify-center items-center">
         <div className="mx-2">
           <Image

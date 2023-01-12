@@ -57,7 +57,7 @@ export const TestimonialSection: React.FC = () => {
                   //   height={200}
                   // width={150}
                   priority
-                  className="w-32 h-32 rounded-full -mt-20"
+                  className="w-24 md:w-32 h-24 md:h-32 rounded-full -mt-20"
                 />
 
                 <div>
