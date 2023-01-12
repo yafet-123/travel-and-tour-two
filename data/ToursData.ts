@@ -10,7 +10,8 @@ const TourSummaryArray: ToursObject[] = [
   {
     id: '1',
     title: 'Trip to North Historic Route',
-    shortDescription: 'This trip takes you deep into human history.',
+    shortDescription: `This trip takes you deep into human history. The discovery begins in Addis Ababa wth a panoramic escape to Mt. 
+    Entoto and an important stop at the National Archaeological Museum, home of the 3.5 million-year-old bones of Lucy ....`,
     accommodation: 'Hotels',
     transportation: 'Drive and Flight',
     duration: '8 Days/ 7 Nights',

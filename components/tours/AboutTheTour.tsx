@@ -55,9 +55,9 @@ export const AboutTheTour: React.FC<any> = ({ tour }) => {
         {tour.detailedItinerary.map((detail: any, index: any) => {
           return (
             <div key={index} className="border-b-4 m-2 border-primaryColor">
-              <h2 className="font-bold md:text-xl">Day {detail.day}</h2>
-              <h2 className="font-bold md:text-xl">{detail.title}</h2>
-              <p className="md:font-semibold md:text-lg text-md">
+              <h2 className="font-bold md:text-xl my-3">Day {detail.day}</h2>
+              <h2 className="font-bold md:text-xl my-3">{detail.title}</h2>
+              <p className="md:font-semibold md:text-lg text-md my-3">
                 {detail.detail}
               </p>
               <h2 className="font-bold md:text-xl mb-2">
