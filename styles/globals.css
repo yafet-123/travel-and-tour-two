@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Ethiopia-Simien-Mountains.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-hero-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.historical {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/lalibela.jpg');
+}
+
+.adventure {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/adventurexpedtionsimage.JPG');
+}
+.trekking {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg');
+}
