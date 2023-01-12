@@ -1,19 +1,18 @@
 import imageOne from '../public/ethiopian_wolves_ethiopian_AVZ.jpg';
-import imageTwo from '../public/tradition image 1.jpg';
-import imageThree from '../public/Travel to Omo Valley Tribes Children.jpg';
-import imageFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
-import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
+// import imageTwo from '../public/tradition image 1.jpg';
+// import imageThree from '../public/Travel to Omo Valley Tribes Children.jpg';
+// import imageFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
+// import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
 
-import { ToursObject } from './types';
+import { ToursObject } from '../types/types';
 
 const TourSummaryArray: ToursObject[] = [
   {
-    id: 1,
+    id: '1',
     title: 'Trip to North Historic Route',
-    shortDescription:
-      'This trip takes you deep into human history.',
+    shortDescription: 'This trip takes you deep into human history.',
     accommodation: 'Hotels',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '8 Days/ 7 Nights',
     description: `The discovery begins in Addis Ababa with a
       panoramic escape to Mt. Entoto and an important stop at the National Archaeological
@@ -164,24 +163,24 @@ const TourSummaryArray: ToursObject[] = [
     ],
   },
   {
-    id: 2,
+    id: '2',
     title: 'Cultural Exploration of Omo Valley',
     shortDescription:
       'This is a great itinerary which gives travelers an extraordinary opportunity to travel through Ethiopia’s fascinating Southern region, famous for its natural and cultural spectacles and the famous Omo Valley for the chance to meet and discover some of the more remote, colorful, and enigmatic ethnic groups of this incredibly diverse area of Ethiopia.',
     accommodation: 'Hotels and Lodge',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '8 Days/ 7 Nights',
     description: `This itinerary let you to mingle and discover; The Mursi Tribe, renowned for their
-lip-plates; The Hamer famous for their bull jumping coming of age ceremony, The
-Konso known for their intricately-terraced hillsides, fine woven materials, and carved
-totems with which they decorate their graves; The Karo famous for their attractive body
-painting; The Dassenech (Gelab); The Ari known for their beautiful green villages and
-The Dorze well known cotton weavers. You will visit the weekly colorful local markets
-for spontaneous interactions and fantastic photo opportunities and attend authentic
-cultural events. This tour also includes visit to the Ethiopian Rift Valley to explore some
-of the natural wonders of the Great African Rift Valley. Visit Lake Awassa, Ziway and
-Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
-to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
+                  lip-plates; The Hamer famous for their bull jumping coming of age ceremony, The
+                  Konso known for their intricately-terraced hillsides, fine woven materials, and carved
+                  totems with which they decorate their graves; The Karo famous for their attractive body
+                  painting; The Dassenech (Gelab); The Ari known for their beautiful green villages and
+                  The Dorze well known cotton weavers. You will visit the weekly colorful local markets
+                  for spontaneous interactions and fantastic photo opportunities and attend authentic
+                  cultural events. This tour also includes visit to the Ethiopian Rift Valley to explore some
+                  of the natural wonders of the Great African Rift Valley. Visit Lake Awassa, Ziway and
+                  Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
+                  to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
     groupsize: '2-12',
     imagePath: imageOne,
     isFeatured: true,
@@ -190,15 +189,15 @@ to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience
         day: 1,
         title: 'Arrival at Addis Ababa, City tour',
         detail: `Welcome to Ethiopia! Arrive at Addis Abeba Bole International Airport. Here you will be
-greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
-transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
-relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
-Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
-city full of contrasts. This city tour includes, The National Museum which houses the
-country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
-Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
-Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
-of the largest open air markets in Africa.
+                greeted by your tour guide or driver from Ecotravel Ethiopia Tours. Then you will be
+                transferred to hotel. If your arrival is early morning, after a leisurely morning rest and
+                relax you will spend the afternoon on a site seeing of Addis Abeba. Established by
+                Emperor Menelik II 1887 Addis Abeba or ‘New flower’ in Amharic, is relatively young
+                city full of contrasts. This city tour includes, The National Museum which houses the
+                country’s historic treasures & the famous ‘Lucy”, The Holy Trinity Orthodox Church
+                Ethiopian main cathedral and home to the remains of the last emperor: Drive up to
+                Mount Entoto to have a panoramic view of the city and end the tour with Merkato, one
+                of the largest open air markets in Africa.
 `,
         overnight: 'Eliana Hotel',
       },
@@ -206,58 +205,58 @@ of the largest open air markets in Africa.
         day: 2,
         title: 'Drive to Arba Minch',
         detail: `This morning after breakfast drive full day towards south to Arbaminch. Southern
-region is noted for its enormous variety of peoples &culture. Today your first stop will be
-at Adadi Mariam rock church which is believed to be built by king Lalibela around 11th
-century. Then visit Tiya stelae filed which is registered by UNESCO for its 600-800
-years old large stone pillars. There are around 36 standing stones 32 of which are
-engraved and decorated with enigmatic symbols marking a large prehistoric royal burial
-place. Continue further south through the territory of the Gurage and Alaba people and
-arrive at Arbaminch late in the afternoon`,
+                  region is noted for its enormous variety of peoples &culture. Today your first stop will be
+                  at Adadi Mariam rock church which is believed to be built by king Lalibela around 11th
+                  century. Then visit Tiya stelae filed which is registered by UNESCO for its 600-800
+                  years old large stone pillars. There are around 36 standing stones 32 of which are
+                  engraved and decorated with enigmatic symbols marking a large prehistoric royal burial
+                  place. Continue further south through the territory of the Gurage and Alaba people and
+                  arrive at Arbaminch late in the afternoon`,
         overnight: 'Haile Resort Arbaminch',
       },
       {
         day: 3,
         title: 'Boat trip on Lake Chamo and visit Dorze village',
         detail: `In the morning embark on a boat trip on Lake Chamo, a lake that supports a large
-population of crocodiles, hippos and fish. First you will cross the lake and head to the
-east bank and climb the plateau to the NechSar national park to see Wild Zebras and
-Gazelles. Return to the boat trip & visit the famous Crocodile Market which is not a
-market but a place to see large concentration of giant Nile Crocodiles and many hippos.
-The lake is about 32 kms long and provides a lush wetland habitat for many of flora and
-fauna. In the afternoon visit the Dorzetribe who lives on the Guge Mountain. The Dorze
-are renowned for their cotton-weaving techniques and beehive shaped houses
-constructed entirely from organic materials. Here in their village you can see the unique
-beehive huts, observe their exceptional cotton weaving skills and learn about their life
-and traditions.`,
+                population of crocodiles, hippos and fish. First you will cross the lake and head to the
+                east bank and climb the plateau to the NechSar national park to see Wild Zebras and
+                Gazelles. Return to the boat trip & visit the famous Crocodile Market which is not a
+                market but a place to see large concentration of giant Nile Crocodiles and many hippos.
+                The lake is about 32 kms long and provides a lush wetland habitat for many of flora and
+                fauna. In the afternoon visit the Dorzetribe who lives on the Guge Mountain. The Dorze
+                are renowned for their cotton-weaving techniques and beehive shaped houses
+                constructed entirely from organic materials. Here in their village you can see the unique
+                beehive huts, observe their exceptional cotton weaving skills and learn about their life
+                and traditions.`,
         overnight: 'Haile Resort Arbaminch',
       },
       {
         day: 4,
         title: 'Drive to Turmi via Konso',
         detail: `Following breakfast this morning travel to Turmi, a small town and center to visit the
-Omo valley tribes. On the way stop at Konso and visit their village. The Konso tribe is
-famous for their agricultural terracing method and for their wooden totems that honor
-the dead. The Konso villages are a world heritage listed site for its cultural significance.
-The villages are surrounded by high stone walls and encompass separate compounds.
-After lunch continue further south through the acacia forest to Turmi. If today is a
-market day you will get the chance to visitone of the following colorful markets, Alduba
-(every Tuesday), Keyafer (every Thursday)or Dimeka (every Saturday).`,
+                Omo valley tribes. On the way stop at Konso and visit their village. The Konso tribe is
+                famous for their agricultural terracing method and for their wooden totems that honor
+                the dead. The Konso villages are a world heritage listed site for its cultural significance.
+                The villages are surrounded by high stone walls and encompass separate compounds.
+                After lunch continue further south through the acacia forest to Turmi. If today is a
+                market day you will get the chance to visitone of the following colorful markets, Alduba
+                (every Tuesday), Keyafer (every Thursday)or Dimeka (every Saturday).`,
         overnight: 'Turmi Lodge',
       },
       {
         day: 5,
         title: 'Hammer and Karo tribes',
         detail: `This morning begin an excursion to the Karo tribe. The Karo excel in face and body
-painting that is practiced especially during their dances and ceremonies. They pulverize
-locally found white chalk, yellow mineral rock, red iron ore and black charcoal to
-decorate their bodies often mimicking the spotted plumage of a Guinea Fowl. The men
-create highly decorated clay hair buns which can take several days to complete. Return
-to Turmi and after lunch and short break late in the afternoon at the sun set visit the
-village of the famous Hamer tribe village located close to Turmi. The Hamer tribe is
-known for the fine pottery they produce as well as their remarkable hair style. The
-women are striking wearing beautiful colorful beaded goat skins, ornate necklaces and
-metal bangles around their wrist and ankles. These decorations indicate the wealth and
-prestige of a woman’s husband.`,
+                  painting that is practiced especially during their dances and ceremonies. They pulverize
+                  locally found white chalk, yellow mineral rock, red iron ore and black charcoal to
+                  decorate their bodies often mimicking the spotted plumage of a Guinea Fowl. The men
+                  create highly decorated clay hair buns which can take several days to complete. Return
+                  to Turmi and after lunch and short break late in the afternoon at the sun set visit the
+                  village of the famous Hamer tribe village located close to Turmi. The Hamer tribe is
+                  known for the fine pottery they produce as well as their remarkable hair style. The
+                  women are striking wearing beautiful colorful beaded goat skins, ornate necklaces and
+                  metal bangles around their wrist and ankles. These decorations indicate the wealth and
+                  prestige of a woman’s husband.`,
         overnight: 'Turmi Lodge',
       },
       {
@@ -322,12 +321,12 @@ home.
     ],
   },
   {
-    id: 3,
+    id: '3',
     title: 'Trekking to the Highest peak in Ethiopia',
     shortDescription:
       'This is a trekking itinerary in the spectacular Simien Mountains. Located in the far north section of the country, the Simien Mountains are a trekkers utopia. Home to endemic wild animals, Green pastures, glistening streams & mountain views that will leave you mesmerized for weeks thereafter',
     accommodation: 'Hotels and Campsites',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '12 Days/11 Nights',
     description: `The Simien Mountains National Park
       includes one of the most dramatic mountain landscapes in Africa, and is home to some
@@ -550,12 +549,12 @@ home.
     ],
   },
   {
-    id: 4,
+    id: '4',
     title: 'Ultimate Ethiopian Wildlife Tour',
     shortDescription:
       'Ethiopia is home to some of the wildest and most interesting habitats on the planet, with a large number of indigenous plant and animal species. Birdlife is particularly rich. The lakes in the Great Rift Valley region abound with numerous species of birds, and wild animals are found in every region and National Parks. Elephant, Giraffe, Buffalo, Rhino, Lion, civet, serval, bush pig, gazelle, antelope, ibex, kudu, dik-dik, oribi, reedbuck, wild ass, zebra, hyena, Mountain Nyala, Gelada Baboon, and numerous species of monkeys are still found and to be visited.',
     accommodation: 'Hotels and Lodges',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '12 Days/11 Nights',
     description: `This is the special wildlife safari to Simien mountains National park, Bale mountains
 national park, Awash National Park, the great rift valley lakes and the surrounding. This
@@ -745,12 +744,12 @@ major National parks in the country that are famous for their wild life are incl
     ],
   },
   {
-    id: 5,
+    id: '5',
     title: 'Community trek in Ethiopia',
     shortDescription:
       'Centuries old cultural sites, high mountains with a huge variety and spectacular landscapes make this trip to Ethiopia a real enchanting experience. ',
     accommodation: 'Hotels and Lodges',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '15 Days/ 14 Nights',
     description: `On this award-winning easy hiking tour through northern Ethiopia you explore the country in a
       refreshingly different way. You have plenty of time to experience people, culture and
@@ -766,7 +765,7 @@ major National parks in the country that are famous for their wild life are incl
       `,
     groupsize: '2-12',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -999,12 +998,12 @@ travel experience and you leave for the return flight to home.
     ],
   },
   {
-    id: 6,
+    id: '6',
     title: 'Discover Ethiopian Nature and Culture in 14 Days',
     shortDescription:
       'This trip combines culture and nature. You will start in Addis Ababa, the capital city of Ethiopia and center for the African continent, drive via rift valley lakes towards the beautiful Bale Mountains National Park and the coffee plantation region.',
     accommodation: '',
-    transporation: 'Drive',
+    transportation: 'Drive',
     duration: '15 Days/ 14 Nights',
     description: `Bale
 Mountains National Park is Ethiopia’s second-highest mountain range and it contains
@@ -1026,7 +1025,7 @@ trip on Lake Chamo to see Nile Crocodiles and Hippos and visit creator Lakes at 
 Zeit. This will be a truly unforgettable experience.`,
     groupsize: '2-12 PAX',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -1230,12 +1229,12 @@ Zeit. This will be a truly unforgettable experience.`,
     ],
   },
   {
-    id: 7,
+    id: '7',
     title: '5 days trip to Danakil Depression',
     shortDescription:
       'This adventurous trip focuses on the arid north – east of the country which counts amongst its treasures the fascinating Danakil Depression, one of the lowest and hottest places on earth.',
     accommodation: 'Hotels and Lodge',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '5 Days/ 4 Nights',
     description: `The trip starts in Addis Ababa, the capital city of Ethiopia and center for
       the African continent. Then the flight takes you to Semera, and center to start a trip to
@@ -1259,7 +1258,7 @@ Zeit. This will be a truly unforgettable experience.`,
       through the evaporite deposits, dissolving salt, potash, and other soluble minerals.`,
     groupsize: '2-12',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -1340,12 +1339,12 @@ Zeit. This will be a truly unforgettable experience.`,
     ],
   },
   {
-    id: 8,
+    id: '8',
     title: 'Trekking Trip on The Bale Mountains National Park',
     shortDescription:
       'This 7 days trip takes you to beautiful and breathtaking Bale Mountains National Park and hike through amazing scenery. ',
     accommodation: 'Hotels and Campsites',
-    transporation: 'Drive',
+    transportation: 'Drive',
     duration: '7 Days/ 6 Nights',
     description: `The Bale Mountains are high mountains, which are
       an area for a great trekking experience Trekking in the Bale Mountains is easy and can
@@ -1371,7 +1370,7 @@ Zeit. This will be a truly unforgettable experience.`,
       Wattled Ibis, blue-winged goose, and Rouget’s rail.`,
     groupsize: '2-12',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -1488,12 +1487,12 @@ Zeit. This will be a truly unforgettable experience.`,
     ],
   },
   {
-    id: 9,
+    id: '9',
     title: 'Harar and Awash National Park',
     shortDescription:
       'Have you ever thought of feeding and befriending a hyena? What could it feel like to get near the ferocious beast with its bone-crushing teeth and short hind legs?',
     accommodation: 'Hotels and Lodge',
-    transporation: 'Drive',
+    transportation: 'Drive',
     duration: '5 Days/ 4 Nights',
     description: `A tour across
       Harar, the walled city in eastern Ethiopia, will give you a daring experience that you will
@@ -1510,7 +1509,7 @@ Zeit. This will be a truly unforgettable experience.`,
       named after the Awash River and covers an area of 827 square kilometers.`,
     groupsize: '2-12',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -1592,12 +1591,12 @@ Zeit. This will be a truly unforgettable experience.`,
     ],
   },
   {
-    id: 10,
+    id: '10',
     title: 'Trip to North Historic Route With Timkat Festival',
     shortDescription:
       'This itinerary is specially designed for those travelers who wish to attend on the colorful Timkat Religious Festival and combines it with the famous Northern Historic Route. The trip will start and end in Addis Ababa,',
     accommodation: 'Hotels',
-    transporation: 'Drive and Flight',
+    transportation: 'Drive and Flight',
     duration: '8 Days/ 7 Nights',
     description: `This is a wonderful trip that covers the very best of the Northern Ethiopia Historic Circuit whilst offering hidden treasures 
       and includes several UNESCO world heritage sites. You will discover fascinating places and beautiful scenery on this journey 
@@ -1613,7 +1612,7 @@ Zeit. This will be a truly unforgettable experience.`,
       incudes, The majestic geological formations of the Simien Mountains (meeting red-chested Gelada baboons).`,
     groupsize: '2-12',
     imagePath: imageOne,
-    isFeatured: true,
+    isFeatured: false,
     detailedItinerary: [
       {
         day: 1,
@@ -1788,4 +1787,8 @@ export function getFeaturedTours() {
 
 export function getAllTours() {
   return TourSummaryArray;
+}
+
+export function getTourById(id: String) {
+  return TourSummaryArray.filter((tour) => tour.id === id);
 }

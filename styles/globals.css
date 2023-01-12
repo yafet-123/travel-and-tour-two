@@ -9,9 +9,30 @@
   background-position: center;
 }
 
-.about-us-hero-background {
+.about-us-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../public/2.jpg');
+    url('../public/entoto.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.tours-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Attractions-naturall-endemic-mammals-wolf-overland-ethiopia-tour.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.sustainablity-background {
+  background-image: url('../public/infographic760.png');
+  margin-top: ;
+  background-size: contain;
+  /* background-position: ; */
+}
+
+.ethiopia-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('../public/Attractions-naturall-endemic-mammals-MOUNTAIN-NYALA-overland-ethiopia-tour.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -23,9 +44,13 @@
 
 .adventure {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('../public/adventurexpedtionsimage.JPG');
+    url('../public/entoto\ hiking.jpg');
 }
 .trekking {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg');
+}
+
+.makeImageCircular {
+  border-radius: 50%;
 }
