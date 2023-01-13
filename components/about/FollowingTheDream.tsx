@@ -22,7 +22,7 @@ export const FollowingTheDream = () => {
           <h1 className="md:text-5xl font-bold text-3xl">
             We are Eco-Travel Ethiopia
           </h1>
-          <p className="md:text-2xl font-semibold text-lg">
+          <p className="md:text-2xl font-semibold text-md md:text-lg">
             We organize the best Ethiopian premium tours covering historical
             routes, mountain trekking and adventure expeditions to remote areas,
             bird and wildlife watching, as well as family-friendly tours.
@@ -41,9 +41,9 @@ export const FollowingTheDream = () => {
         </div>
       </div>
 
-      <div className="flex flex-col gap-8 my-16">
-        <div className="grid md:grid-cols-2 grid-cols-1 items-center  justify-center md:p-16 md:mt-12 md:mb-32 gap-4 p-4 text-primaryColor text-left">
-          <div className="hidden md:flex order-first md:order-last md:-mb-40">
+      <div className="flex flex-col gap-8 ">
+        <div className="my-16 grid md:grid-cols-2 grid-cols-1 items-center bg-primaryColor justify-center md:p-20 md:mt-12 md:mb-32 gap-4 p-2 text-white text-left">
+          <div className="order-first md:order-last md:-mb-40">
             <Image
               src="http://cdn.cnn.com/cnnnext/dam/assets/190205150343-kitfo.jpg"
               alt="sustainablity background"
@@ -57,25 +57,16 @@ export const FollowingTheDream = () => {
 
           <div className="flex gap-8 flex-col">
             <h1 className="md:text-5xl font-bold text-4xl mt-6">OUR MISSION</h1>
-            <p className="md:text-2xl font-semibold text-lg">
+            <p className="md:text-2xl md:font-semibold text-md md:text-lg">
               Our mission is to provide the ultimate travel planning experience
               while becoming a one-stop shop for every travel service available
               in the industry.
             </p>
           </div>
         </div>
-        <Image
-          src="http://cdn.cnn.com/cnnnext/dam/assets/190205150343-kitfo.jpg"
-          alt="sustainablity background"
-          //   fill
-          priority
-          width={500}
-          height={400}
-          className="md:h-full md:w-auto rounded-sm shadow-md shadow-slate-800 md:hidden sm:flex"
-        />
 
-        <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-start md:mt-32 gap-4 md:p-16 p-4 text-white text-left bg-primaryColor">
-          <div className="hidden md:flex order-last md:order-first md:-mt-40 mt-0">
+        <div className="grid md:grid-cols-2 grid-cols-1 items-center justify-start md:mt-32 gap-4 md:p-20 p-4 text-white p-2 text-left bg-primaryColor">
+          <div className="order-last md:order-first md:-mt-40 mt-0">
             <Image
               src="https://jonesbrotherscoffee.com/en/img/asset/bWFpbi9ibG9nL2ltYWdlLWFzc2V0LmpwZw==?w=1200&s=f14631dd1dec01f2a90d6ce25bf50438"
               alt="sustainablity background"
@@ -89,7 +80,7 @@ export const FollowingTheDream = () => {
 
           <div className="flex gap-8 flex-col">
             <h1 className="md:text-5xl font-bold text-4xl mt-6">OUR VISION</h1>
-            <p className="md:text-2xl font-semibold text-lg">
+            <p className="md:text-2xl md:font-semibold text-md md:text-lg">
               We are proud to offer excellent quality and value for money in our
               tours, which give you the chance to experience your chosen
               destination in an authentic and exciting way.
