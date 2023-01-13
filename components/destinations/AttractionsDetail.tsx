@@ -14,7 +14,7 @@ export const AttractionsDetail: React.FC<any> = (props) => {
         return (
           <div
             key={index}
-            className="grid md:grid-cols-2 grid-cols-1 gap-4 border-b-4 border-primaryColor justify-center mx-4"
+            className="grid md:grid-cols-2 grid-cols-1 gap-4 border-b-4 border-primaryColor justify-center mx-4 pb-5"
           >
             <div
               className={`${
@@ -26,7 +26,7 @@ export const AttractionsDetail: React.FC<any> = (props) => {
               <h1 className="font-bold text-2xl">{place.title}</h1>
               <p className="font-semibold text-lg text-left">{place.detail}</p>
             </div>
-            <div className="items-center justify-center p-4">
+            <div className="items-center justify-center md:p-4">
               <Image
                 src={place.imageUrl}
                 alt={place.title}

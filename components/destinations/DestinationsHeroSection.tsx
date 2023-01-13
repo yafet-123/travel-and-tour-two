@@ -16,7 +16,7 @@ export const DestinationsHeroSection: React.FC<any> = ({
 
   return (
     <div
-      className={`flex justify-center items-center h-[550px] w-full md:h-screen bg-cover ${cssStyle}`}
+      className={`flex justify-center items-center h-[550px] w-full h-full md:h-screen px-5 py-24 bg-cover ${cssStyle}`}
     >
       <div className="flex flex-col gap-8 font-bold text-center md:p-12">
         <div>
