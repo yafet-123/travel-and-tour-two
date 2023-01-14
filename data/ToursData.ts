@@ -1,9 +1,11 @@
-import imageOne from '../public/ethiopian_wolves_ethiopian_AVZ.jpg';
-import imageTwo from '../public/tradition image 1.jpg';
-import imageThree from '../public/Travel to Omo Valley Tribes Children.jpg';
-import imageFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
+import NorthHistoricRoute from '../public/lake-Tana.png';
+import HighestpeakinEthiopia from '../public/tradition image 1.jpg';
+import OmoValley from '../public/Travel to Omo Valley Tribes Children.jpg';
+import WildlifeTour from '../public/Ethiopia-Wildlife-Hero.jpg';
 import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
 import Danakil from '../public/Danakil Depression.png'
+import Harar from '../public/Harar.png'
+import Timket from '../public/Timket.png'
 
 import { ToursObject } from '../types/types';
 
@@ -26,7 +28,7 @@ const TourSummaryArray: ToursObject[] = [
       majestic geological formations of the Simien Mountains (meeting red-chested Gelada
       baboons).`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: NorthHistoricRoute,
     isFeatured: true,
     detailedItinerary: [
       {
@@ -184,7 +186,7 @@ const TourSummaryArray: ToursObject[] = [
                   Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
                   to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
     groupsize: '2-12',
-    imagePath: imageThree,
+    imagePath: OmoValley,
     isFeatured: true,
     detailedItinerary: [
       {
@@ -348,7 +350,7 @@ home.
       more off-the-beaten-track route to the lowland parts of the park through the villages of
       Mekerebiya, Mulit and Adirkay.`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: HighestpeakinEthiopia,
     isFeatured: true,
     detailedItinerary: [
       {
@@ -564,7 +566,7 @@ itinerary is designed for those who love nature, wildlife, and authentic culture
 major National parks in the country that are famous for their wild life are included.
 `,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: WildlifeTour,
     isFeatured: true,
     detailedItinerary: [
       {
@@ -1510,7 +1512,7 @@ Zeit. This will be a truly unforgettable experience.`,
       mammals including Ethiopia’s largest protected population of Beisa Oryx. The park is
       named after the Awash River and covers an area of 827 square kilometers.`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: Harar,
     isFeatured: false,
     detailedItinerary: [
       {
@@ -1613,7 +1615,7 @@ Zeit. This will be a truly unforgettable experience.`,
       It takes place on 19th January every year and Gondar is the best place to attend to the ceremony. The itinerary also 
       incudes, The majestic geological formations of the Simien Mountains (meeting red-chested Gelada baboons).`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: Timket,
     isFeatured: false,
     detailedItinerary: [
       {
