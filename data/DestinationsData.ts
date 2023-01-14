@@ -1,5 +1,19 @@
 import { DestinationsType } from '../types/types';
 
+import lakeTana from '../public/lake-Tana.png';
+import fasiledes from '../public/fasiledes.jpg';
+import lalibela from '../public/lalibela-destination.png';
+import axum from '../public/axum.png';
+import Danakil from '../public/Danakil Depression.png'
+import SimienMountains from '../public/Simien Mountains National Park.png'
+import BaleMountain from '../public/Attractions-naturall-endemic-mammals-MOUNTAIN-NYALA-overland-ethiopia-tour.jpg'
+import AwashNational from '../public/Awash National Park.png'
+import OmoValley from '../public/OmoValley.png'
+import Harar from '../public/Harar.png'
+import Meskel from '../public/Meskel.png'
+import Timket from '../public/Timket.png'
+import Genna from '../public/Gena.png'
+
 const DestinationsData: DestinationsType[] = [
   {
     id: 'historical',
@@ -23,8 +37,7 @@ const DestinationsData: DestinationsType[] = [
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.
             `,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl: lakeTana
       },
       {
         id: 2,
@@ -42,8 +55,7 @@ const DestinationsData: DestinationsType[] = [
             Behind the castle are various ruined buildings, including the kitchen (domed ceiling),
             steam bath and water cistern.`,
 
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:fasiledes
       },
       {
         id: 3,
@@ -62,8 +74,7 @@ const DestinationsData: DestinationsType[] = [
             been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret,
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:lalibela
       },
       {
         id: 4,
@@ -82,8 +93,7 @@ const DestinationsData: DestinationsType[] = [
             been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret,
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:axum
       },
     ],
   },
@@ -109,8 +119,7 @@ const DestinationsData: DestinationsType[] = [
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.
             `,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:SimienMountains
       },
       {
         id: 2,
@@ -128,8 +137,7 @@ const DestinationsData: DestinationsType[] = [
             Behind the castle are various ruined buildings, including the kitchen (domed ceiling),
             steam bath and water cistern.`,
 
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:BaleMountain
       },
       {
         id: 3,
@@ -148,8 +156,7 @@ const DestinationsData: DestinationsType[] = [
             been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret,
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:Danakil
       },
       {
         id: 4,
@@ -168,12 +175,10 @@ const DestinationsData: DestinationsType[] = [
             been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret,
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:AwashNational
       },
     ],
   },
-
   {
     id: 'cultural',
     title: 'CULTURAL ATTRACTIONS',
@@ -196,8 +201,7 @@ const DestinationsData: DestinationsType[] = [
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.
             `,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:OmoValley
       },
       {
         id: 2,
@@ -215,8 +219,7 @@ const DestinationsData: DestinationsType[] = [
             Behind the castle are various ruined buildings, including the kitchen (domed ceiling),
             steam bath and water cistern.`,
 
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:Harar
       },
     ],
   },
@@ -242,8 +245,7 @@ const DestinationsData: DestinationsType[] = [
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.
             `,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:Meskel
       },
       {
         id: 2,
@@ -261,8 +263,7 @@ const DestinationsData: DestinationsType[] = [
             Behind the castle are various ruined buildings, including the kitchen (domed ceiling),
             steam bath and water cistern.`,
 
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:Timket
       },
       {
         id: 3,
@@ -281,8 +282,7 @@ const DestinationsData: DestinationsType[] = [
             been selected for the international campaign: Kebran Gabriel, Ura Kidane Mehret,
             Narga Selassie, Daga Estifanos, Medhane Alem of Rema, Kota Maryam and Mertola
             Maryam.`,
-        imageUrl:
-          'https://www.shadowsofafrica.com/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/s/h/shutterstock_1606070548.jpg',
+        imageUrl:Genna
       },
     ],
   },
