@@ -1,11 +1,13 @@
 import NorthHistoricRoute from '../public/lake-Tana.png';
-import HighestpeakinEthiopia from '../public/tradition image 1.jpg';
+import HighestpeakinEthiopia from '../public/Simien-Mountains-landscapes.jpeg';
 import OmoValley from '../public/Travel to Omo Valley Tribes Children.jpg';
 import WildlifeTour from '../public/Ethiopia-Wildlife-Hero.jpg';
-import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
 import Danakil from '../public/Danakil Depression.png'
+import Communitytrek from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg'
 import Harar from '../public/Harar.png'
 import Timket from '../public/Timket.png'
+import BaleMountain from '../public/ethiopian_wolves_ethiopian_AVZ.jpg'
+import TrekkingTrip from '../public/2.jpg'
 
 import { ToursObject } from '../types/types';
 
@@ -768,7 +770,7 @@ major National parks in the country that are famous for their wild life are incl
       Tana Region
       `,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: Communitytrek,
     isFeatured: false,
     detailedItinerary: [
       {
@@ -1028,7 +1030,7 @@ Awassa, Ziway and Langano to spot different birds, Abijatta-Shalla National Park
 trip on Lake Chamo to see Nile Crocodiles and Hippos and visit creator Lakes at Debre
 Zeit. This will be a truly unforgettable experience.`,
     groupsize: '2-12 PAX',
-    imagePath: imageOne,
+    imagePath: BaleMountain,
     isFeatured: false,
     detailedItinerary: [
       {
@@ -1373,7 +1375,7 @@ Zeit. This will be a truly unforgettable experience.`,
       park is a bird paradise with several endemic birds including the thick-billed raven,
       Wattled Ibis, blue-winged goose, and Rouget’s rail.`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: TrekkingTrip,
     isFeatured: false,
     detailedItinerary: [
       {
