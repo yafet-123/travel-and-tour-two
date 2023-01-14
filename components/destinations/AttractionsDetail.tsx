@@ -33,7 +33,7 @@ export const AttractionsDetail: React.FC<any> = (props) => {
                 priority
                 width={500}
                 height={400}
-                className="md:w-full md:h-[400px]"
+                className="md:w-full md:h-[400px] bg-fill"
               />
             </div>
           </div>

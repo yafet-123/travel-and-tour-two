@@ -44,7 +44,7 @@ export const SustainablityDetail: React.FC = () => {
                   priority
                   width={400}
                   height={300}
-                  className="md:w-full md:h-96"
+                  className="md:w-full md:h-[500px]"
                 />
               </div>
             </div>
