@@ -1,8 +1,9 @@
 import imageOne from '../public/ethiopian_wolves_ethiopian_AVZ.jpg';
-// import imageTwo from '../public/tradition image 1.jpg';
-// import imageThree from '../public/Travel to Omo Valley Tribes Children.jpg';
-// import imageFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
-// import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
+import imageTwo from '../public/tradition image 1.jpg';
+import imageThree from '../public/Travel to Omo Valley Tribes Children.jpg';
+import imageFour from '../public/Simien-Mountains-Ethiopia-563114-1920px-16x7.jpg';
+import imageFive from '../public/St-Trinity-Cathederal-Addis-Ababa-1.jpg';
+import Danakil from '../public/Danakil Depression.png'
 
 import { ToursObject } from '../types/types';
 
@@ -183,7 +184,7 @@ const TourSummaryArray: ToursObject[] = [
                   Langano to spot different birds, Abijatta-Shalla National Park; Boat trip on Lake Chamo
                   to see Nile Crocodiles and Hippos. This will be a truly unforgettable experience.`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: imageThree,
     isFeatured: true,
     detailedItinerary: [
       {
@@ -1258,7 +1259,7 @@ Zeit. This will be a truly unforgettable experience.`,
       from the surrounding highlands. This hot water moves up toward the surface and
       through the evaporite deposits, dissolving salt, potash, and other soluble minerals.`,
     groupsize: '2-12',
-    imagePath: imageOne,
+    imagePath: Danakil,
     isFeatured: false,
     detailedItinerary: [
       {
