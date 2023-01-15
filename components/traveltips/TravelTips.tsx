@@ -14,7 +14,7 @@ export const TravelTips = () => {
                 <div
                   key={tip.id}
                   className="text-center flex flex-col border-4 border-primaryColor
-                                                                    shadow-lg gap-2 p-4 items-center drop-shadow-xl"
+                                                                    shadow-lg gap-2 px-4 py-10 items-center drop-shadow-xl"
                 >
                   <h1 className="font-bold md:text-3xl text-2xl">
                     {tip.title}
@@ -49,7 +49,7 @@ export const TravelTips = () => {
                 <div
                   key={tip.id}
                   className="border-4 border-primaryColor
-                shadow-lg gap-2 p-4  drop-shadow-xl"
+                shadow-lg gap-2 px-4 py-10  drop-shadow-xl"
                 >
                   <h1 className="font-bold md:text-3xl text-center text-2xl">
                     {tip.title}
@@ -92,7 +92,7 @@ export const TravelTips = () => {
             return (
               <div
                 key={tip.id}
-                className="text-center flex flex-col border-4 border-primaryColor shadow-lg gap-2 p-4 items-center drop-shadow-xl"
+                className="text-center flex flex-col border-4 border-primaryColor shadow-lg gap-2 px-4 py-10 items-center drop-shadow-xl"
               >
                 <h1 className="font-bold md:text-3xl text-2xl">{tip.title}</h1>
                 <p className="md:text-xl text-lg">{tip.detail}</p>
