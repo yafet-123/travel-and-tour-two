@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
                 >
                   <Link
                     className={
-                      router.pathname == link.path || ( router.pathname == "/" && "/HOME" == link.path ) 
+                      router.pathname == link.path 
         
                         ? "border-b-4 border-white dark:border-white lg:ml-2 text-lg font-bold text-white dark:text-white"
                         : "lg:ml-2 text-lg font-bold text-white dark:text-white hover:border-b-4 border-white"
