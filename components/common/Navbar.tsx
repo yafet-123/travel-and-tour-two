@@ -3,10 +3,11 @@ import { useState } from 'react';
 import Image from 'next/image';
 import navbarImage from '../../public/logo.png';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
+import { useRouter } from "next/router";
 
 export const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
-
+  const router = useRouter();
   const NavLinks = [
     { path: '/', name: 'HOME' },
     { path: '/tours', name: 'TOURS' },
@@ -63,8 +64,13 @@ export const Navbar: React.FC = () => {
                   className="md:ml-6 text-md font-medium md:my-0 my-7"
                 >
                   <Link
+                    className={
+                      router.pathname == link.path || ( router.pathname == "/" && "/HOME" == link.path ) 
+        
+                        ? "border-b-4 border-white dark:border-white lg:ml-2 text-lg font-bold text-white dark:text-white"
+                        : "lg:ml-2 text-lg font-bold text-white dark:text-white hover:border-b-4 border-white"
+                    }
                     href={link.path}
-                    className="text-white hover:text-secondaryColor hover:underline transition duration-200 after:text-secondaryColor active:underline"
                   >
                     {link.name}
                   </Link>
