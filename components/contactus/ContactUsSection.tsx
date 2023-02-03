@@ -46,7 +46,7 @@ export const ContactUsSeciton: React.FC = () => {
                 {service.title}
               </h2>
 
-              <p className="lg:text-lg md:text-sm sm:text-lg lg:px-6 ">
+              <p className="lg:text-lg md:text-md sm:text-lg lg:px-6 ">
                 {service.description}
               </p>
             </div>
